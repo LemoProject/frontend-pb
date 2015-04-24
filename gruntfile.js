@@ -59,6 +59,7 @@ module.exports = function(grunt) {
                   'bower_components/jquery/dist/jquery.js',
                   'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js',
                   'bower_components/d3/d3.js',
+                  'bower_components/slick.js/slick/slick.js',
                   'javascript/plugins/*.js',
                   'javascript/custom/*.js'
                 ],
