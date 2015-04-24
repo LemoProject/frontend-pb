@@ -1,0 +1,156 @@
+@import "bootstrap";
+@import "mixins";
+@import "sprite";
+
+//general
+body {
+  padding-top: 70px;
+}
+
+//index page
+.container.index {
+  .triple-row {
+    margin-top: 20px;
+  }
+
+  .well-info {
+    margin-top: 30px;
+  }
+
+  .carousel-wrapper {
+    text-align: right;
+  }
+
+  #carousel-frontpage {
+    @include inline-block;
+    max-width: 500px;
+  }
+
+  .login-form {
+    margin-top: 30px;
+
+    @media (min-width: $screen-md-min) {
+      text-align: right;
+    }
+
+    input {
+      @include inline-block;
+      width: 140px;
+    }
+
+    button {
+      @include inline-block;
+      margin-left: 10px;
+    }
+  }
+}
+
+//contact page
+.container.contact {
+  .form {
+    margin-top: 30px;
+  }
+}
+
+//footer
+.container.footer {
+  padding-top: 30px;
+}
+
+//nav
+.course-dropdown {
+  .course-table-wrapper {
+    margin-bottom: 0;
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    .table {
+      margin-bottom: 0;
+    }
+
+    .courseName {
+      white-space: nowrap;
+
+      &.favorite {
+        &::after {
+          content: " ";
+          @include inline-block;
+          @include sprite($bookmark);
+
+          margin: 1px 0 0 2px;
+        }
+      }
+    }
+
+  }
+
+  #coursesearch {
+    padding: 10px;
+
+    input {
+      width: 100%;
+    }
+  }
+}
+
+.analysis-dropdown {
+  .dropdown-menu {
+    min-width: 400px;
+  }
+
+  li {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+
+    p {
+      margin-bottom: 0;
+      color: #666;
+    }
+
+    span {
+      font-weight: bold;
+      color: #000000;
+    }
+
+    &:last-child {
+      border-bottom: 0;
+    }
+
+    &:hover {
+      background: #eee;
+    }
+
+    &::before {
+      content: " ";
+      @include inline-block;
+
+      width: 64px;
+      height: auto;
+      float: left;
+      margin-right: 10px;
+    }
+
+    $analysis_sprites: $activity_culm $activity_heatmap $activity_lo $activity_time $activity_treemap $navigation_bide $navigation_circlegraph $navigation_graph1 $navigation_graph2 $navigation_viger $performance_cumul $performance_performance $performance_performanceavg $performance_user;
+    @each $sprite in $analysis_sprites {
+      $sprite-name: nth($sprite, 10);
+      &.#{$sprite-name} {
+        &::before {
+          @include sprite($sprite);
+        }
+      }
+    }
+  }
+}
+
+.settings-dropdown {
+  .cogwheel {
+    @include inline-block;
+    @include sprite($cogwheel_white);
+  }
+
+  .dropdown-menu {
+    padding: 10px;
+  }
+}

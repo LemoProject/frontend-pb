@@ -1,0 +1,246 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$activity_culm-name: 'activity_culm';
+$activity_culm-x: 64px;
+$activity_culm-y: 0px;
+$activity_culm-offset-x: -64px;
+$activity_culm-offset-y: 0px;
+$activity_culm-width: 64px;
+$activity_culm-height: 64px;
+$activity_culm-total-width: 256px;
+$activity_culm-total-height: 256px;
+$activity_culm-image: '../sprites/spritesheet.png';
+$activity_culm: 64px 0px -64px 0px 64px 64px 256px 256px '../sprites/spritesheet.png' 'activity_culm';
+$activity_heatmap-name: 'activity_heatmap';
+$activity_heatmap-x: 128px;
+$activity_heatmap-y: 128px;
+$activity_heatmap-offset-x: -128px;
+$activity_heatmap-offset-y: -128px;
+$activity_heatmap-width: 64px;
+$activity_heatmap-height: 64px;
+$activity_heatmap-total-width: 256px;
+$activity_heatmap-total-height: 256px;
+$activity_heatmap-image: '../sprites/spritesheet.png';
+$activity_heatmap: 128px 128px -128px -128px 64px 64px 256px 256px '../sprites/spritesheet.png' 'activity_heatmap';
+$activity_lo-name: 'activity_lo';
+$activity_lo-x: 0px;
+$activity_lo-y: 64px;
+$activity_lo-offset-x: 0px;
+$activity_lo-offset-y: -64px;
+$activity_lo-width: 64px;
+$activity_lo-height: 64px;
+$activity_lo-total-width: 256px;
+$activity_lo-total-height: 256px;
+$activity_lo-image: '../sprites/spritesheet.png';
+$activity_lo: 0px 64px 0px -64px 64px 64px 256px 256px '../sprites/spritesheet.png' 'activity_lo';
+$activity_time-name: 'activity_time';
+$activity_time-x: 64px;
+$activity_time-y: 64px;
+$activity_time-offset-x: -64px;
+$activity_time-offset-y: -64px;
+$activity_time-width: 64px;
+$activity_time-height: 64px;
+$activity_time-total-width: 256px;
+$activity_time-total-height: 256px;
+$activity_time-image: '../sprites/spritesheet.png';
+$activity_time: 64px 64px -64px -64px 64px 64px 256px 256px '../sprites/spritesheet.png' 'activity_time';
+$activity_treemap-name: 'activity_treemap';
+$activity_treemap-x: 128px;
+$activity_treemap-y: 0px;
+$activity_treemap-offset-x: -128px;
+$activity_treemap-offset-y: 0px;
+$activity_treemap-width: 64px;
+$activity_treemap-height: 64px;
+$activity_treemap-total-width: 256px;
+$activity_treemap-total-height: 256px;
+$activity_treemap-image: '../sprites/spritesheet.png';
+$activity_treemap: 128px 0px -128px 0px 64px 64px 256px 256px '../sprites/spritesheet.png' 'activity_treemap';
+$bookmark-name: 'bookmark';
+$bookmark-x: 148px;
+$bookmark-y: 192px;
+$bookmark-offset-x: -148px;
+$bookmark-offset-y: -192px;
+$bookmark-width: 16px;
+$bookmark-height: 16px;
+$bookmark-total-width: 256px;
+$bookmark-total-height: 256px;
+$bookmark-image: '../sprites/spritesheet.png';
+$bookmark: 148px 192px -148px -192px 16px 16px 256px 256px '../sprites/spritesheet.png' 'bookmark';
+$cogwheel_white-name: 'cogwheel_white';
+$cogwheel_white-x: 128px;
+$cogwheel_white-y: 192px;
+$cogwheel_white-offset-x: -128px;
+$cogwheel_white-offset-y: -192px;
+$cogwheel_white-width: 20px;
+$cogwheel_white-height: 20px;
+$cogwheel_white-total-width: 256px;
+$cogwheel_white-total-height: 256px;
+$cogwheel_white-image: '../sprites/spritesheet.png';
+$cogwheel_white: 128px 192px -128px -192px 20px 20px 256px 256px '../sprites/spritesheet.png' 'cogwheel_white';
+$navigation_bide-name: 'navigation_bide';
+$navigation_bide-x: 64px;
+$navigation_bide-y: 128px;
+$navigation_bide-offset-x: -64px;
+$navigation_bide-offset-y: -128px;
+$navigation_bide-width: 64px;
+$navigation_bide-height: 64px;
+$navigation_bide-total-width: 256px;
+$navigation_bide-total-height: 256px;
+$navigation_bide-image: '../sprites/spritesheet.png';
+$navigation_bide: 64px 128px -64px -128px 64px 64px 256px 256px '../sprites/spritesheet.png' 'navigation_bide';
+$navigation_circlegraph-name: 'navigation_circlegraph';
+$navigation_circlegraph-x: 0px;
+$navigation_circlegraph-y: 0px;
+$navigation_circlegraph-offset-x: 0px;
+$navigation_circlegraph-offset-y: 0px;
+$navigation_circlegraph-width: 64px;
+$navigation_circlegraph-height: 64px;
+$navigation_circlegraph-total-width: 256px;
+$navigation_circlegraph-total-height: 256px;
+$navigation_circlegraph-image: '../sprites/spritesheet.png';
+$navigation_circlegraph: 0px 0px 0px 0px 64px 64px 256px 256px '../sprites/spritesheet.png' 'navigation_circlegraph';
+$navigation_graph1-name: 'navigation_graph1';
+$navigation_graph1-x: 192px;
+$navigation_graph1-y: 0px;
+$navigation_graph1-offset-x: -192px;
+$navigation_graph1-offset-y: 0px;
+$navigation_graph1-width: 64px;
+$navigation_graph1-height: 64px;
+$navigation_graph1-total-width: 256px;
+$navigation_graph1-total-height: 256px;
+$navigation_graph1-image: '../sprites/spritesheet.png';
+$navigation_graph1: 192px 0px -192px 0px 64px 64px 256px 256px '../sprites/spritesheet.png' 'navigation_graph1';
+$navigation_graph2-name: 'navigation_graph2';
+$navigation_graph2-x: 192px;
+$navigation_graph2-y: 64px;
+$navigation_graph2-offset-x: -192px;
+$navigation_graph2-offset-y: -64px;
+$navigation_graph2-width: 64px;
+$navigation_graph2-height: 64px;
+$navigation_graph2-total-width: 256px;
+$navigation_graph2-total-height: 256px;
+$navigation_graph2-image: '../sprites/spritesheet.png';
+$navigation_graph2: 192px 64px -192px -64px 64px 64px 256px 256px '../sprites/spritesheet.png' 'navigation_graph2';
+$navigation_viger-name: 'navigation_viger';
+$navigation_viger-x: 192px;
+$navigation_viger-y: 128px;
+$navigation_viger-offset-x: -192px;
+$navigation_viger-offset-y: -128px;
+$navigation_viger-width: 64px;
+$navigation_viger-height: 64px;
+$navigation_viger-total-width: 256px;
+$navigation_viger-total-height: 256px;
+$navigation_viger-image: '../sprites/spritesheet.png';
+$navigation_viger: 192px 128px -192px -128px 64px 64px 256px 256px '../sprites/spritesheet.png' 'navigation_viger';
+$performance_cumul-name: 'performance_cumul';
+$performance_cumul-x: 0px;
+$performance_cumul-y: 192px;
+$performance_cumul-offset-x: 0px;
+$performance_cumul-offset-y: -192px;
+$performance_cumul-width: 64px;
+$performance_cumul-height: 64px;
+$performance_cumul-total-width: 256px;
+$performance_cumul-total-height: 256px;
+$performance_cumul-image: '../sprites/spritesheet.png';
+$performance_cumul: 0px 192px 0px -192px 64px 64px 256px 256px '../sprites/spritesheet.png' 'performance_cumul';
+$performance_performance-name: 'performance_performance';
+$performance_performance-x: 0px;
+$performance_performance-y: 128px;
+$performance_performance-offset-x: 0px;
+$performance_performance-offset-y: -128px;
+$performance_performance-width: 64px;
+$performance_performance-height: 64px;
+$performance_performance-total-width: 256px;
+$performance_performance-total-height: 256px;
+$performance_performance-image: '../sprites/spritesheet.png';
+$performance_performance: 0px 128px 0px -128px 64px 64px 256px 256px '../sprites/spritesheet.png' 'performance_performance';
+$performance_performanceavg-name: 'performance_performanceavg';
+$performance_performanceavg-x: 128px;
+$performance_performanceavg-y: 64px;
+$performance_performanceavg-offset-x: -128px;
+$performance_performanceavg-offset-y: -64px;
+$performance_performanceavg-width: 64px;
+$performance_performanceavg-height: 64px;
+$performance_performanceavg-total-width: 256px;
+$performance_performanceavg-total-height: 256px;
+$performance_performanceavg-image: '../sprites/spritesheet.png';
+$performance_performanceavg: 128px 64px -128px -64px 64px 64px 256px 256px '../sprites/spritesheet.png' 'performance_performanceavg';
+$performance_user-name: 'performance_user';
+$performance_user-x: 64px;
+$performance_user-y: 192px;
+$performance_user-offset-x: -64px;
+$performance_user-offset-y: -192px;
+$performance_user-width: 64px;
+$performance_user-height: 64px;
+$performance_user-total-width: 256px;
+$performance_user-total-height: 256px;
+$performance_user-image: '../sprites/spritesheet.png';
+$performance_user: 64px 192px -64px -192px 64px 64px 256px 256px '../sprites/spritesheet.png' 'performance_user';
+$spritesheet-width: 256px;
+$spritesheet-height: 256px;
+$spritesheet-image: '../sprites/spritesheet.png';
+$spritesheet-sprites: $activity_culm $activity_heatmap $activity_lo $activity_time $activity_treemap $bookmark $cogwheel_white $navigation_bide $navigation_circlegraph $navigation_graph1 $navigation_graph2 $navigation_viger $performance_cumul $performance_performance $performance_performanceavg $performance_user;
+$spritesheet: 256px 256px '../sprites/spritesheet.png' $spritesheet-sprites;
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
