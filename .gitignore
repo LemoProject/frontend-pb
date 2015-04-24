@@ -1,0 +1,9 @@
+#bower and nodejs modules
+bower_components
+node_modules
+
+#cache files
+.sass-cache
+
+#ide filed
+.idea
