@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "bootstrap-sass-official": "~3.3.1",
-    "d3": "~3.5.3"
+    "d3": "~3.5.3",
+    "slick.js": "~1.5.1"
   }
 }
