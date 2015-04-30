@@ -37,10 +37,10 @@
             <div id="carousel-frontpage" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="../images/Nutzungsanalyse.png" alt="">
+                        <img src="./images/Nutzungsanalyse.png" alt="">
                     </div>
                     <div class="item">
-                        <img src="../images/Pfadvisualisierung.png" alt="">
+                        <img src="./images/Pfadvisualisierung.png" alt="">
                     </div>
                 </div>
             </div>

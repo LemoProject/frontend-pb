@@ -14,3 +14,5 @@ javascript/script.js
 css/style.css
 css/style.css.map
 css/style.min.css
+sass/_sprite.scss
+sprites/spritesheet.png
